@@ -30,9 +30,9 @@ To start the server:
 	node server
 
 # To Do
-[ ] Make splash page with main cover page
-[ ] Update cover images
-[ ] Replce LSU logo with "Poe's Magazine World"
-[ ] Replace Express with Jekyll
+- [ ] Make splash page with main cover page
+- [ ] Update cover images
+- [ ] Replce LSU logo with "Poe's Magazine World"
+- [ ] Replace Express with Jekyll
 
 
