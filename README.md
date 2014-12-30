@@ -1,6 +1,9 @@
 # Description
 
-Basic Bootstrap setup with Gruntfile.js, bower.json, and package.json. Also with a simple Express server.
+Basic dev setup with Bootstrap, Grunt, Bower, Express, and Node. These are used to generate the content in 'public'. 
+
+# Demo
+The 'gh-pages' branch automatically creates a live site at http://literati.github.io/apc-bootstrap/public (recently renanmed from http://literati.github.io/apc-bootsrap/public).
 
 # Dependencies
 Should be intalled in this order:
