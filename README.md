@@ -25,15 +25,13 @@ To install for the first time:
 
 # Usage
 
-Start the server:
+- Start the server:	
 	
 	node server
 
-Edit code.
-
-Merge gh-pages and master branches.
-
-View at http://literati.github.io/apc-bootstrap/public.
+- Edit code.
+- Merge gh-pages and master branches.
+- View at http://literati.github.io/apc-bootstrap/public.
 
 # To Do
 - [ ] Make splash page with main cover page
