@@ -1,5 +1,4 @@
 # Description
-
 Basic dev setup with Bootstrap, Grunt, Bower, Express, and Node. These are used to generate the content in 'public'. 
 
 # Demo
@@ -24,13 +23,7 @@ To install for the first time:
 	git clone git@github.com:literati/apc-bootsrap.git && npm install && grunt
 
 # Usage
-
-- Start the server:	
- 
- 
-    node server
- 
- 
+- Start the server: `node server`
 - Edit code.
 - Merge gh-pages and master branches.
 - View at http://literati.github.io/apc-bootstrap/public.
