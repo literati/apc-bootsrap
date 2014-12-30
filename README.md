@@ -27,7 +27,9 @@ To install for the first time:
 
 - Start the server:	
  
-	node server
+ 
+    node server
+ 
  
 - Edit code.
 - Merge gh-pages and master branches.
