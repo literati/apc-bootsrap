@@ -32,7 +32,14 @@
 
           <div class="inner cover">
 
-            <img id="cover" src="img/main.png" class="img-responsive" border="0" width="1000" height="1580" alt="" />
+            <img src="img/main.png" class="img-responsive" border="0" width="1000" height="1580" orgWidth="1000" orgHeight="1580" usemap="#cover" alt="" />
+
+            <map name="cover">
+              <area  alt="" title="" href="slm.html" shape="rect" coords="251,829,752,879" style="outline:none;" target="_self"     />
+              <area  alt="" title="" href="butons.html" shape="rect" coords="256,730,741,783" style="outline:none;" target="_self"     />
+              <area  alt="" title="" href="http://www.image-maps3.com/" shape="rect" coords="343,931,665,979" style="outline:none;" target="_self"     />
+              <area  alt="" title="" href="http://www.image-maps4.com/" shape="rect" coords="316,1029,686,1075" style="outline:none;" target="_self"     />
+            </map>
 
           </div>
 
@@ -49,5 +56,13 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+    <script type="text/javascript">    
+      $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+      });
+    </script>
+
+</body>
 </html>
