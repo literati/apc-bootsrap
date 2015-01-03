@@ -29,9 +29,14 @@ To install for the first time:
 - View at http://literati.github.io/apc-bootstrap/public.
 
 # To Do
-- [ ] Make splash page with main cover page
-- [ ] Update cover images
-- [ ] Replce LSU logo with "Poe's Magazine World"
+- [x] Make splash page with main cover page
+- [x] Update cover images
+- [x] Replce LSU logo with "Poe's Magazine World"
+- [ ] Clean up google drive html files
+- [ ] Add google drive content to html
 - [ ] Replace Express with Jekyll
+- [ ] Make Jekyll bootstrap theme
+- [ ] Add bootstap scrollspy and put all content on 1 page 
+- [ ] Add panels to cover images
 
 
