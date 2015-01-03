@@ -33,10 +33,12 @@ To install for the first time:
 - [x] Update cover images
 - [x] Replce LSU logo with "Poe's Magazine World"
 - [ ] Clean up google drive html files
-- [ ] Add google drive content to html
+- [ ] Add google drive html to content folder
 - [ ] Replace Express with Jekyll
 - [ ] Make Jekyll bootstrap theme
 - [ ] Add bootstap scrollspy and put all content on 1 page 
 - [ ] Add panels to cover images
+- [ ] Put google drive content into json format
+- [ ] Serve json via handlebars.js or Jekyll equivalent
 
 
