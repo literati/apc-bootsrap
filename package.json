@@ -1,21 +1,22 @@
 {
-	"name": "bower-grunt-bootstrap-express",
+	"name": "apc-bootstrap",
 	"version": "0.0.1",
-	"description": "Quick development for Bootstrap.",
+	"description": "Quick development for Poe's Magazines.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/fredeerock/bower-npm-grunt-bootstrap.git"
+		"url": "https://github.com/literati/apc-bootstrap.git"
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
-		"grunt": "*",
-		"grunt-shell": "*",
+		"grunt": "^0.4.5",
+		"grunt-shell": "^1.1.1",
 		"express": "^4.1.2",
 		"body-parser": "^1.1.2",
 		"errorhandler": "^1.0.1",
-		"method-override": "^1.0.0"
+		"method-override": "^1.0.0",
+		"docxtohtml": "*"
 	}
 }

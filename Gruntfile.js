@@ -6,14 +6,16 @@ module.exports = function(grunt) {
 		shell: {
 			multiple: {
 				command: [
-					'bower install',
-					'mkdir -p public/css',
-					'mkdir -p public/js',
-					'cp bower_components/bootstrap/dist/css/bootstrap.min.css public/css/',
+					'brew install pandoc',
+					'node google_drive_data/download_gdocs.js',
+					'mv *.docx google_drive_data/google_raw/',
+					'npm update',
+					'bower update',
+					//'cp bower_components/bootstrap/dist/css/bootstrap.min.css public/css/',
 					'cp bower_components/bootstrap/dist/js/bootstrap.min.js public/js/',
 					'cp bower_components/jquery/dist/jquery.min.js public/js/',
-					'if [ -f index.html ]; then mv index.html public/; fi',
-					'if [ -f style.css ]; then mv style.css public/css/; fi'
+					'find google_drive_data/google_raw -name \*.docx -maxdepth 3 -type f -exec node node_modules/docxtohtml/docxtohtml.js {} ";"',
+					'mv google_drive_data/google_raw/*.html google_drive_data/formatted_html/'
 				].join('&&')
 			}
 		}
