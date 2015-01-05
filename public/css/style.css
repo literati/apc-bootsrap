@@ -86,18 +86,13 @@ body {
 }
 
 .embed-responsive.embed-responsive-16by9 {
-  padding-bottom: 56.25%;
+  padding-bottom: 75%;
 }
 
 .panel-body h1:first-child{
   margin-top: -10px;
   /*padding-top: 0px;*/
 }
-
-.blah p:first-child {
-    background-color: yellow;
-}
-
 
 /*
  * Placeholder dashboard ideas
