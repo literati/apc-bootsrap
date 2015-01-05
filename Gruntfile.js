@@ -6,10 +6,13 @@ module.exports = function(grunt) {
 		shell: {
 			multiple: {
 				command: [
-					'bower install',
+					'npm update',
+					'bower update',
 					//'cp bower_components/bootstrap/dist/css/bootstrap.min.css public/css/',
 					'cp bower_components/bootstrap/dist/js/bootstrap.min.js public/js/',
-					'cp bower_components/jquery/dist/jquery.min.js public/js/'
+					'cp bower_components/jquery/dist/jquery.min.js public/js/',
+					'find google_drive_data/google_raw -name \*.docx -maxdepth 3 -type f -exec node node_modules/docxtohtml/docxtohtml.js {} ";"',
+					'mv google_drive_data/google_raw/*.html google_drive_data/formatted_html/'
 				].join('&&')
 			}
 		}
