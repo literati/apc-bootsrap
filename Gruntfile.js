@@ -7,13 +7,9 @@ module.exports = function(grunt) {
 			multiple: {
 				command: [
 					'bower install',
-					'mkdir -p public/css',
-					'mkdir -p public/js',
-					'cp bower_components/bootstrap/dist/css/bootstrap.min.css public/css/',
+					//'cp bower_components/bootstrap/dist/css/bootstrap.min.css public/css/',
 					'cp bower_components/bootstrap/dist/js/bootstrap.min.js public/js/',
-					'cp bower_components/jquery/dist/jquery.min.js public/js/',
-					'if [ -f index.html ]; then mv index.html public/; fi',
-					'if [ -f style.css ]; then mv style.css public/css/; fi'
+					'cp bower_components/jquery/dist/jquery.min.js public/js/'
 				].join('&&')
 			}
 		}
